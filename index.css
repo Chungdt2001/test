@@ -1,0 +1,348 @@
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #f5f7f8;
+}
+main {
+  padding: 20px;
+  margin: 20px 15px 20px 15px;
+  background-color: #f5f7f8;
+}
+.header {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  background-color: #4d636f;
+}
+.left-nav {
+  display: flex;
+}
+
+.logo {
+  color: white;
+  background-color: #3a4b53;
+  padding: 20px;
+  text-decoration: none;
+}
+.logo:hover {
+  color: black;
+  background-color: #ccc;
+}
+.nav-icon {
+  color: white;
+  padding: 20px;
+}
+.nav-icon:hover {
+  color: black;
+  background-color: #fff;
+}
+.nav-bell-icon {
+  color: white;
+  padding: 20px;
+}
+.nav-bell-icon:hover {
+  color: black;
+  background-color: #ccc;
+}
+.right-nav {
+  padding: 0 10px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.right-nav img {
+  height: 40px;
+  border-radius: 50%;
+}
+.right-nav:hover {
+  color: black;
+  background-color: #fff;
+}
+.my-profile h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.my-profile img {
+  width: 106px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.my-profile i {
+  color: rgb(211, 126, 223);
+  width: 25px;
+}
+.my-profile {
+  background-color: white;
+  padding: 15px;
+}
+.my-profile hr {
+  border-top: 1px solid #eee;
+}
+.box-shadow {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border-radius: 3px;
+}
+.event {
+  background-color: white;
+  padding: 3px 15px;
+}
+.event h4 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.event h5 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.event img {
+  width: 100%;
+  margin: 0 auto;
+}
+.event p {
+  text-align: center;
+}
+.event button {
+  font-size: 15px;
+  color: black;
+  background-color: #dfe5e8;
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.event button:hover {
+  color: black;
+  background-color: #ccc;
+}
+.request {
+  margin-top: 20px;
+  background-color: white;
+  padding: 3px 20px;
+}
+.request img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.request p {
+  font-size: 15px;
+  text-align: center;
+}
+.request button {
+  border: none;
+  font-size: 15px;
+  /* width: 100%; */
+  margin: 16px 0px;
+  padding: 8px 16px;
+}
+.button-accept {
+  color: #fff;
+  background-color: #94cf96;
+}
+.button-accept:hover {
+  color: black;
+  background-color: #ccc;
+}
+.button-decline {
+  color: #fff;
+  background-color: #f88e86;
+}
+.button-decline:hover {
+  color: black;
+  background-color: #ccc;
+}
+.post {
+  background-color: white;
+  padding: 20px;
+}
+.post p {
+  font-weight: 700;
+  color: pink;
+}
+.post .input-post {
+  border-radius: 0px;
+  border: 1px solid rgb(243, 208, 248);
+  padding: 8px 15px;
+}
+.post .input-post:focus-visible {
+  border-radius: 0;
+  border: 1px solid rgb(243, 208, 248);
+  outline: none;
+}
+.post .post-title {
+  color: #4d636f;
+}
+.post .submit-post {
+  padding: 10px;
+  width: 80px;
+  color: white;
+  border: none;
+  background-color: #607d8b;
+}
+.post .submit-post:hover {
+  color: black;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.status {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+}
+.status-profile {
+  display: flex;
+}
+.status-profile p {
+  margin-left: auto;
+}
+.status-profile img {
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.status-button button {
+  padding: 10px;
+  height: 40px;
+
+  color: white;
+  border: none;
+  background-color: #607d8b;
+}
+.status-button button:hover {
+  color: black;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.status-button .like-button {
+  width: 80px;
+}
+.status-button .comment-button {
+  width: 150px;
+}
+.status hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.status-pic img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.ads {
+  color: black;
+  margin-top: 20px;
+  height: 85px;
+  background-color: white;
+}
+.ads p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 16px;
+}
+.bug {
+  color: black;
+  margin-top: 20px;
+  height: 85px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+}
+.bug i {
+  font-size: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.interests {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  padding-bottom: 20px;
+  padding-right: 16px;
+  background-color: white;
+}
+.interests span {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.interests .news {
+  color: #fff;
+  background-color: #303e45;
+  font-size: 12px;
+}
+.interests .w3school {
+  color: #fff;
+  background-color: #3a4b53;
+  font-size: 12px;
+}
+.interests .labels {
+  color: #fff;
+  background-color: #435761;
+  font-size: 12px;
+}
+.interests .games1 {
+  color: #fff;
+  background-color: #4d636f;
+  font-size: 12px;
+}
+.interests .friend1 {
+  color: #fff;
+  background-color: #57707d;
+  font-size: 12px;
+}
+.interests .games2 {
+  color: #fff;
+  background-color: #607d8b;
+  font-size: 12px;
+}
+.interests .friend2 {
+  color: #fff;
+  background-color: #7d97a5;
+  font-size: 12px;
+}
+.interests .food {
+  color: #000;
+  background-color: #9eb1bb;
+  font-size: 12px;
+}
+.interests .design {
+  color: #000;
+  background-color: #9eb1bb;
+  font-size: 12px;
+}
+.interests .art {
+  color: #000;
+  background-color: #dfe5e8;
+  font-size: 12px;
+}
+.interests .photos {
+  color: #000;
+  background-color: #f5f7f8;
+  font-size: 12px;
+}
+.footer1 {
+  color: white;
+  background-color: #435761;
+  padding: 16px;
+  font-weight: bold;
+}
+.footer2 {
+  background-color: #303e45;
+  color: white;
+  padding: 0.15px 16px;
+  padding-top: 8px;
+}
